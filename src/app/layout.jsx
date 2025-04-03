@@ -15,7 +15,7 @@ export default function RootLayout ({ children }) {
     <html lang='en'>
       <body className={` antialiased `}>
       {
-            path == '/verifiedTax' || path == '/register' 
+            path == '/taxpayment/verifiedTax' || path == '/taxpayment/register' 
             ?
             <div></div>
             :
